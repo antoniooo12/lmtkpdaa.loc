@@ -1,0 +1,20 @@
+/*налаштування стилів слайдера новин*/
+:root{
+    --post-width: 400px;
+    --post-count-per-slide: 2px,
+}
+
+.content-view-news__post{
+    margin: 0 auto;
+    /*2 кількість слайдів*/
+    width: calc(2 * var(--post-width));
+}
+.content-view-news__post  .pt-cv-content-item{
+    width: var(--post-width);
+    height: 300px;
+}
+
+.content-view-news__post  img{
+    height: 100%;
+    object-fit: fill;
+}

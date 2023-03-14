@@ -1,0 +1,9 @@
+.header_logo__wrapper{
+    width: 150px;
+}
+
+.header_top_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

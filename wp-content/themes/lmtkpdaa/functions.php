@@ -139,11 +139,15 @@ add_action( 'widgets_init', 'lmtkpdaa_widgets_init' );
  */
 function lmtkpdaa_scripts() {
     // add styles
-	wp_enqueue_style( 'lmtkpdaa-style', get_stylesheet_uri(), array(), _S_VERSION );
+    wp_enqueue_style( 'body-style',  get_stylesheet_directory_uri() . './styles/body.css', array(), time());
+
+    wp_enqueue_style( 'lmtkpdaa-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'lmtkpdaa-style', 'rtl', 'replace' );
 
     wp_enqueue_style( 'child-style',  get_stylesheet_directory_uri() . './variables.css', array(), time());
-    wp_enqueue_style( 'nav-menu',  get_stylesheet_directory_uri() . './styles/nav-menu.css', array(), time());
+    wp_enqueue_style( 'nav-menu-style',  get_stylesheet_directory_uri() . './styles/nav-menu.css', array(), time());
+    wp_enqueue_style( 'header-style',  get_stylesheet_directory_uri() . './styles/header.css', array(), time());
+    wp_enqueue_style( 'content-view-news-style',  get_stylesheet_directory_uri() . './styles/content-view-news.css', array(), time());
 
 
     wp_enqueue_script( 'lmtkpdaa-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

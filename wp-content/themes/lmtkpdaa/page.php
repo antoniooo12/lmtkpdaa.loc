@@ -16,7 +16,6 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-        <div class="test">test text</div>
 
 		<?php
 		while ( have_posts() ) :
