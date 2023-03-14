@@ -44,8 +44,10 @@
 				<p class="site-description"><?php echo $lmtkpdaa_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
+            <?php
+            ?>
 
-		<nav id="site-navigation" class="main-navigation">
+		<nav id="site-navigation" class="nav-menu__container">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'lmtkpdaa' ); ?></button>
 			<?php
 			wp_nav_menu(

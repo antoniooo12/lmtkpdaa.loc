@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31b4e3ce-9e76-4432-b997-4f504e29119e" name="Changes" comment="" />
+    <list default="true" id="31b4e3ce-9e76-4432-b997-4f504e29119e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/lmtkpdaa/styles/nav-menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/lmtkpdaa/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/lmtkpdaa/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/lmtkpdaa/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/lmtkpdaa/header.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,14 +22,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="rector.php" />
         <option value="CSS File" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a2018145-4556-4add-91bb-d538edc7edac" />
+        <option name="url" value="https://github.com/antoniooo12/lmtkpdaa.loc.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M2q4DsXB4S7r5ilkhRhUPDk57v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,7 +66,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Users\\anton\\AppData\\Local\\JetBrains\\Toolbox\\apps\\PhpStorm\\ch-0\\223.8617.59\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -66,6 +89,7 @@
       <workItem from="1678805969602" duration="15000" />
       <workItem from="1678806001406" duration="462000" />
       <workItem from="1678806670510" duration="5000" />
+      <workItem from="1678813299543" duration="593000" />
     </task>
     <servers />
   </component>

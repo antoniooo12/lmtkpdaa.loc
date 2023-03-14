@@ -143,6 +143,7 @@ function lmtkpdaa_scripts() {
 	wp_style_add_data( 'lmtkpdaa-style', 'rtl', 'replace' );
 
     wp_enqueue_style( 'child-style',  get_stylesheet_directory_uri() . './variables.css', array(), time());
+    wp_enqueue_style( 'nav-menu',  get_stylesheet_directory_uri() . './styles/nav-menu.css', array(), time());
 
 
     wp_enqueue_script( 'lmtkpdaa-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
