@@ -1,0 +1,10 @@
+:root {
+    --main-color: #16C595;
+}
+
+.test {
+    /*background-color: red;*/
+    color: var(--main-color);
+}
+
+/**/
