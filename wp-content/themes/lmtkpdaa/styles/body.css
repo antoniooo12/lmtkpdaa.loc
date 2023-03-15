@@ -1,5 +1,14 @@
-body{
+body {
     max-width: 1260px;
     margin: 0 auto !important;
-    display: block;
+    /*display: block;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*overflow: hidden;*/
+}
+
+main {
+    /*min-height: 100% !important;*/
+    flex-grow: 1;
 }

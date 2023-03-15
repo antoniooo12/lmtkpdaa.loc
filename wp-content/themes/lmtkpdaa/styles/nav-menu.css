@@ -1,4 +1,7 @@
 /*базове налаштування*/
+.nav-menu__container ul{
+    z-index: 100;
+}
 .nav-menu__container a:visited {
     color: inherit;
 }

@@ -1,20 +1,35 @@
 /*налаштування стилів слайдера новин*/
-:root{
-    --post-width: 400px;
+:root {
+    --post-width-standart: 400px;
+    --post-width-mobile: 100%;
     --post-count-per-slide: 2px,
 }
 
-.content-view-news__post{
+.content-view-news__post {
     margin: 0 auto;
     /*2 кількість слайдів*/
-    width: calc(2 * var(--post-width));
+    width: calc(2 * var(--post-width-standart));
 }
-.content-view-news__post  .pt-cv-content-item{
-    width: var(--post-width);
+
+.content-view-news__post .pt-cv-content-item {
+    width: var(--post-width-standart);
     height: 300px;
 }
 
-.content-view-news__post  img{
+.content-view-news__post img {
     height: 100%;
     object-fit: fill;
+}
+
+@media (max-width: 1024px) {
+    .content-view-news__post .pt-cv-content-item {
+        width: 100%;
+        height: 250px;
+    }
+
+    .content-view-news__post {
+        margin: 0 auto;
+        width:  100%;
+    }
+
 }
